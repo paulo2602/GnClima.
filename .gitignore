@@ -1,0 +1,18 @@
+# dependências
+node_modules/
+npm-debug.log
+
+# ambiente/env
+.env
+
+# Docker volumes
+pgdata/
+postgres-data/
+
+# sistema/macOS
+.DS_Store
+
+
+.gitpod/
+.vscode/
+.idea/
