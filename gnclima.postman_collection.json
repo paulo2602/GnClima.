@@ -1,0 +1,47 @@
+
+{
+  "info": {
+    "name": "GnClima API",
+    "_postman_id": "fcaa85c2-7889-4b6e-9f0e-b4acd8701d99",
+    "description": "Coleção de requisições para a API GnClima (avaliação técnica).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Buscar clima por cidade",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3001/weather?city=São Paulo",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3001",
+          "path": ["weather"],
+          "query": [
+            {
+              "key": "city",
+              "value": "São Paulo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Histórico de consultas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3001/weather/history",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3001",
+          "path": ["weather", "history"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
